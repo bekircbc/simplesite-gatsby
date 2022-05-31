@@ -47,4 +47,15 @@ body {
     font-size: 2rem;
     color: #ccc;
   }
+
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    img {
+      border-radius: 1.2rem;
+    }
+  }
 }
