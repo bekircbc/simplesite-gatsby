@@ -10,6 +10,9 @@ const Header = ({ siteTitle, subtitle }) => (
       display: `flex`,
       alignItems: `center`,
       justifyContent: `space-between`,
+      color: "#465c69",
+      fontSize: "2.5rem",
+      fontWeight: "bold",
     }}
   >
     {subtitle}

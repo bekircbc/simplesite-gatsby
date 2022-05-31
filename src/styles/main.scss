@@ -2,6 +2,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: rgb(161, 137, 137);
   background-image: url("../images/icon.png");
+  background-blend-mode: lighten;
   h1 {
     font-size: 2rem;
     background-color: #444;
