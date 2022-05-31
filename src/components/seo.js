@@ -17,6 +17,7 @@ function Seo({ description, lang, meta, title }) {
         site {
           siteMetadata {
             title
+            subtitle
             description
             author
           }
@@ -26,7 +27,7 @@ function Seo({ description, lang, meta, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
+  const defaultTitle = site.siteMetadata?.subtitle
 
   return (
     <Helmet
