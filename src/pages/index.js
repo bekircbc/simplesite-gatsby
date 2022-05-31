@@ -22,6 +22,15 @@ const IndexPage = () => (
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
       />
+      <StaticImage
+        src="../images/icon.png"
+        loading="eager"
+        width={464}
+        quality={100}
+        formats={["auto", "webp", "avif"]}
+        alt=""
+        style={{ marginBottom: `var(--space-3)` }}
+      />
     </div>
   </Layout>
 )
