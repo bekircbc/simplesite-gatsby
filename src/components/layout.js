@@ -32,6 +32,13 @@ const Layout = ({ children }) => {
       description:
         "A simple example of linking to another page within a Gatsby site",
     },
+    {
+      text: "Books",
+      url: "/books",
+      badge: false,
+      description:
+        "A simple example of linking to books page and getting books from API",
+    },
   ]
 
   return (
