@@ -1,3 +1,9 @@
+# Simple Page with Gatsby
+
+- This page can be used as a Example Page for Gatsby-Projects.
+
+- React used in this Gatsby project. using React look at the Bookspage..
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
